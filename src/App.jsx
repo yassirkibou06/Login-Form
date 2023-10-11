@@ -8,6 +8,8 @@ import ShowLogin from './components/login&register/ShowLogin';
 import SlideEvent from './components/slideEvent/SlideEvent';
 import SlideCourses from './components/slideCourses/SlideCourses';
 import SlideFeedback from './components/slideFeedback/SlideFeedback';
+import CategoriesGrid from './components/categories/CategoriesGrid';
+import ExpectGrid from './components/expect/ExpectGrid';
 
 
 function App() {
@@ -25,6 +27,12 @@ function App() {
       </div>
       <div className="mt-32 mb-24">
         <SlideFeedback />
+      </div>
+      <div className="mt-32 mb-24">
+        <CategoriesGrid />
+      </div>
+      <div className="mt-32 mb-24">
+        <ExpectGrid />
       </div>
       <AnimatePresence>
         {show && <ShowLogin show={show} setShow={setShow} />}

@@ -21,7 +21,7 @@ const ShowLogin = ({ show, setShow }) => {
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0 }}
         onClick={() => setShow(!show)}
-        className="bg-black/80 w-full h-screen fixed left-0 top-0 z-[999]">
+        className="bg-black/80 w-full h-screen fixed left-0 top-0 z-[999]"></motion.div>
         <motion.div
           transition={{ delay: 0.5, ease: "easeInOut" }}
           exit={{ opacity: 0, duration: 0.2 }}
@@ -51,7 +51,6 @@ const ShowLogin = ({ show, setShow }) => {
             <RegisterForm handleToggleForm={handleToggleForm} />
           </motion.div>
         </motion.div>
-      </motion.div>
     </>
   );
 }

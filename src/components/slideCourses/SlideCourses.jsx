@@ -13,6 +13,11 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
 
 const SlideEvent = () => {
     return (
+        <>
+        <div className='flex items-center justify-between mb-10 px-20'>
+            <h2 className='font-bold text-4xl'><span className='text-blue-600'>Popular</span> Courses</h2>
+            <a className='font-medium text-sm flex items-center gap-2 hover:text-blue-500' href="/">See More<ArrowRightIcon /></a>
+        </div>
         <div className="px-20 relative">
             <Swiper
                 spaceBetween={30}
@@ -67,7 +72,8 @@ const SlideEvent = () => {
             <div className="custom-pagination-container-course">
                 <div className="custom-pagination-course"></div>
             </div>
-        </div >
+        </div>
+        </>
     );
 };
 

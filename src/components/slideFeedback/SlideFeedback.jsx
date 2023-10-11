@@ -13,42 +13,44 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
 
 const SlideFeedback = () => {
     return (
-        <div className="px-20 relative">
-            <Swiper
-                spaceBetween={30}
-                slidesPerView={1}
-                loop={true}
-                navigation={{
-                    prevEl: '.prev',
-                    nextEl: '.next',
-                }}
-                pagination={{
-                    clickable: true,
-                    el: '.custom-pagination-feedback',
-                }}
-                modules={[Pagination, Navigation]}
-                className="mySwiper"
-            >
-                <SwiperSlide className='w-fit'>
-                    <CardForm />
-                </SwiperSlide>
-                <SwiperSlide className='w-fit'>
-                    <CardForm />
-                </SwiperSlide>
-                <SwiperSlide className='w-fit'>
-                    <CardForm />
-                </SwiperSlide>
-            </Swiper>
-            <button className="prev">
-                <ArrowLeftIcon width={15} height={15} cursor={"pointer"} />
-            </button>
-            <button className="next">
-                <ArrowRightIcon width={15} height={15} cursor={"pointer"} />
-            </button>
-            <div className="custom-pagination-container-course">
-                <div className="custom-pagination-feedback"></div>
+        <>
+            <div className="px-20 relative">
+                <Swiper
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    loop={true}
+                    navigation={{
+                        prevEl: '.prev',
+                        nextEl: '.next',
+                    }}
+                    pagination={{
+                        clickable: true,
+                        el: '.custom-pagination-feedback',
+                    }}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide className='w-fit'>
+                        <CardForm />
+                    </SwiperSlide>
+                    <SwiperSlide className='w-fit'>
+                        <CardForm />
+                    </SwiperSlide>
+                    <SwiperSlide className='w-fit'>
+                        <CardForm />
+                    </SwiperSlide>
+                </Swiper>
+                <button className="prev">
+                    <ArrowLeftIcon width={15} height={15} cursor={"pointer"} />
+                </button>
+                <button className="next">
+                    <ArrowRightIcon width={15} height={15} cursor={"pointer"} />
+                </button>
+                <div className="custom-pagination-container-course">
+                    <div className="custom-pagination-feedback"></div>
+                </div>
             </div>
-        </div >
+        </>
     );
 };
 
