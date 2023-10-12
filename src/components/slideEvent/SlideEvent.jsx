@@ -14,11 +14,11 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
 const SlideEvent = () => {
     return (
         <>
-            <div className='flex items-center justify-between mb-2 px-20'>
-                <h2 className='font-bold text-4xl'><span className='text-blue-600'>Upcoming</span> Events</h2>
-                <a className='font-medium text-sm flex items-center gap-2 hover:text-blue-500' href="/">See More<ArrowRightIcon /></a>
+            <div className='flex flex-col md:flex-row items-start md:items-center justify-between mb-2 px-20'>
+                <h2 className='font-bold text-2xl md:text-4xl'><span className='text-blue-600'>Upcoming</span> Events</h2>
+                <a className='mt-2 md:mt-0 font-medium text-xs md:text-sm flex items-center gap-2 hover:text-blue-500' href="/">See More<ArrowRightIcon /></a>
             </div>
-            <p className="text-sm px-20 mb-8">Upcoming Education Events to feed your brain.</p>
+            <p className="text-xs md:text-sm px-20 mb-8">Upcoming Education Events to feed your brain.</p>
             <div className="px-20 relative">
                 <Swiper
                     spaceBetween={30}
