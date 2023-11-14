@@ -11,7 +11,7 @@ const CardCategories = () => {
     return (
         <Card className="bg-gray-100 shadow-none">
             <CardHeader className="w-full h-[150px] p-0 m-0">
-                <img className="rounded-t-lg rounded-r-lg" src="/assets/courses-14-666x372.png" alt="" />
+                <img className="rounded-t-lg rounded-r-lg" src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2023/05/category-box-1-380x126.jpg" alt="" />
             </CardHeader>
             <CardContent className="flex flex-col items-center justify-center">
                 <CardTitle className="p-0 pt-2">

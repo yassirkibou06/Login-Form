@@ -72,7 +72,12 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       gridTemplateColumns: {
-        "Feedback": "1fr, 200px"
+        "Feedback": "1fr, 200px",
+        "Courses": "1fr, 300px ",
+        "hero": "1fr, 480px",
+        "ads": "720px, 1fr",
+        "instructor": "570px, 1fr",
+        "footer": "400px, repeat(4, 1fr)",
       }
     },
   },

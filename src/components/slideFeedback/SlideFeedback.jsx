@@ -14,14 +14,14 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
 const SlideFeedback = () => {
     return (
         <>
-            <div className="px-20 relative">
+            <div className="relative">
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={1}
                     loop={true}
                     navigation={{
-                        prevEl: '.prev',
-                        nextEl: '.next',
+                        prevEl: '.prev-swiper',
+                        nextEl: '.next-swiper',
                     }}
                     pagination={{
                         clickable: true,
@@ -40,10 +40,10 @@ const SlideFeedback = () => {
                         <CardForm />
                     </SwiperSlide>
                 </Swiper>
-                <button className="prev">
+                <button className="prev-swiper">
                     <ArrowLeftIcon width={15} height={15} cursor={"pointer"} />
                 </button>
-                <button className="next">
+                <button className="next-swiper">
                     <ArrowRightIcon width={15} height={15} cursor={"pointer"} />
                 </button>
                 <div className="custom-pagination-container-course">

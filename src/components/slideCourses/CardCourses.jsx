@@ -1,4 +1,3 @@
-import { Button } from "../ui/button"
 import {
     Card,
     CardContent,
@@ -6,7 +5,7 @@ import {
     CardHeader,
     CardTitle
 } from "../ui/card"
-import { PlayIcon, ReaderIcon } from "@radix-ui/react-icons";
+import { ReaderIcon } from "@radix-ui/react-icons";
 import { BsFillPlayFill } from "react-icons/bs"
 
 
@@ -17,7 +16,7 @@ const CardForm = () => {
                 <span className=" text-white text-xs">Language Learning</span>
             </div>
             <CardHeader className="w-full h-[200px] p-0 m-0">
-                <img className="rounded-lg" src="/assets/courses-14-666x372.png" alt="" />
+                <img className="rounded-lg" src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2022/11/introduction-learnpress-lms-plugin-2-666x372.jpg" alt="" />
             </CardHeader>
             <CardTitle>
                 <h2 className="mt-4 text-lg md:text-xl text-start ml-3">Education Autumn Tour</h2>

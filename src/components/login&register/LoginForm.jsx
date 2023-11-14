@@ -35,7 +35,7 @@ const LoginForm = ({ handleToggleForm }) => {
                             Remember Me
                         </label>
                     </div>
-                    <a href="/" className="text-blue-500">Lost your password?</a>
+                    <a href="/" className="text-blue-500 text-xs">Lost your password?</a>
                 </div>
                 <Button className="w-full h-10 font-semibold bg-blue-600 rounded-lg mb-2">Login</Button>
                 <span>Not a member yet? <button onClick={handleToggleForm} className="text-blue-500">Register now</button></span>

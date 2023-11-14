@@ -12,7 +12,7 @@ import { FaQuoteLeft } from "react-icons/fa"
 
 const CardFeedback = () => {
     return (
-        <Card className="bg-gray-100 p-1 md:p-10">
+        <Card className="bg-[#e1e9fd] p-1 md:p-10">
             <div className="absolute left-2 md:left-16 top-4 md:top-10">
                 <FaQuoteLeft className="w-5 h-5 md:w-10 md:h-10" />
             </div>
@@ -25,7 +25,7 @@ const CardFeedback = () => {
                     </p>
                 </CardDescription>
                 <CardHeader className="w-[100px] h-[100px] md:w-[250px] md:h-[250px] ml-14 p-0 md:m-0">
-                    <img className="rounded-full" src="/assets/courses-14-666x372.png" alt="" />
+                    <img className="rounded-full" src="https://eduma.thimpress.com/demo-marketplace/wp-content/uploads/sites/99/2023/08/home-testimonial.jpg" alt="" />
                 </CardHeader>
             </CardContent>
             <CardFooter href="/" className="px-3 mt-2">
